@@ -1,0 +1,23 @@
+{
+  "name": "sentry-demo-app",
+  "version": "1.0.0",
+  "description": "Demo application showcasing Sentry integration",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "cd server && npm run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "install-all": "npm install && cd client && npm install && cd ../server && npm install"
+  },
+  "keywords": [
+    "sentry",
+    "monitoring",
+    "react",
+    "node"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
