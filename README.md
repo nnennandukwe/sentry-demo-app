@@ -2,6 +2,8 @@
 
 This is a demo app showcasing Sentry error monitoring integration with a React frontend and Express backend.
 
+![Sentry Demo App screenshot](/assets/Sentry_Demo_App.png)
+
 ## Features
 
 - React frontend with error boundaries and Sentry integration
