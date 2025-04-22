@@ -20,7 +20,6 @@ package-lock.json
 .env.test.local
 .env.production.local
 /server/.env
-.*
 
 # logs
 npm-debug.log*
